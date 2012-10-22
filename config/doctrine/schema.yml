@@ -1,0 +1,68 @@
+# Events
+Event:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8    
+  tableName: event
+  actAs: { Timestampable: ~, Sluggable: ~ }
+  columns:
+    name: { type: string(255), notnull: true, unique: true }
+    website: { type: string(255) } 
+    status: { type: enum, notnull: true, values: [0, 1] } # 0 inactive, 1 live
+    type: { type: enum, values: [feed, database] } 
+    industry_id:  { type: integer, notnull: true }    
+    country_id:  { type: integer, notnull: true }        
+    city_id:  { type: integer, notnull: true }            
+  relations:
+    Industry: { class: Industry, local: industry_id, foreign: id, foreignAlias: Industries }
+    Country: { class: Country, local: country_id, foreign: id, foreignAlias: Countries }
+    City: { class: City, local: city_id, foreign: id, foreignAlias: Cities }
+    
+# Industries
+Industry:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8    
+  tableName: industry
+  actAs: { Timestampable: ~, Sluggable: ~ }
+  columns:
+    name: { type: string(255), notnull: true, unique: true }
+    short_code: { type: string(255) } 
+
+# Country
+Country:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8    
+  tableName: country
+  actAs: { Timestampable: ~, Sluggable: ~ }
+  columns:
+    name: { type: string(255), notnull: true, unique: true }
+    short_code: { type: string(255) } 
+
+# City
+City:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8    
+  tableName: city
+  actAs: { Timestampable: ~, Sluggable: ~ }
+  columns:
+    name: { type: string(255), notnull: true, unique: true }
+    short_code: { type: string(255) } 
+
+# Event Type
+EventType:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8    
+  tableName: city
+  actAs: { Timestampable: ~, Sluggable: ~ }
+  columns:
+    name: { type: string(255), notnull: true, unique: true }
+    short_code: { type: string(255) } 

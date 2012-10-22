@@ -1,0 +1,158 @@
+Oct 22 21:03:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Oct 22 21:03:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 21:03:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 21:03:26 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Oct 22 21:03:26 symfony [info] {dashboardActions} Forward to action "default/module"
+Oct 22 21:03:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 21:03:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 21:03:26 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Oct 22 21:03:26 symfony [info] {sfPHPView} Render "/var/www/events/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+Oct 22 21:03:26 symfony [info] {sfPHPView} Decorate content with "/var/www/events/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Oct 22 21:03:26 symfony [info] {sfPHPView} Render "/var/www/events/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Oct 22 21:03:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 22 21:03:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 22 21:03:26 symfony [info] {sfWebDebugLogger} Configuration 158.84 ms (13)
+Oct 22 21:03:26 symfony [info] {sfWebDebugLogger} Factories 145.03 ms (1)
+Oct 22 21:03:26 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 23.37 ms (1)
+Oct 22 21:03:26 symfony [info] {sfWebDebugLogger} Action "default/module" 0.22 ms (1)
+Oct 22 21:03:26 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 9.94 ms (1)
+Oct 22 21:03:26 symfony [info] {sfWebResponse} Send content (30451 o)
+Oct 22 21:03:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Oct 22 21:03:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 21:03:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 21:03:45 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Oct 22 21:03:45 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/dashboard/templates/indexSuccess.php"
+Oct 22 21:03:45 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 22 21:03:45 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 22 21:03:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 22 21:03:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 22 21:03:45 symfony [info] {sfWebDebugLogger} Configuration 7.19 ms (10)
+Oct 22 21:03:45 symfony [info] {sfWebDebugLogger} Factories 12.50 ms (1)
+Oct 22 21:03:45 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.22 ms (1)
+Oct 22 21:03:45 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 11.40 ms (1)
+Oct 22 21:03:45 symfony [info] {sfWebResponse} Send content (27082 o)
+Oct 22 21:03:47 symfony [info] {sfPatternRouting} Match route "event" (/event.:sf_format) for /event with parameters array (  'module' => 'event',  'action' => 'index',  'sf_format' => 'html',)
+Oct 22 21:03:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 21:03:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 21:03:47 symfony [info] {eventActions} Call "eventActions->executeIndex()"
+Oct 22 21:03:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 22 21:03:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM event e - ()
+Oct 22 21:03:47 symfony [info] {sfPHPView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/indexSuccess.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_assets.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_flashes.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list_header.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list_batch_actions.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list_actions.php"
+Oct 22 21:03:47 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list_footer.php"
+Oct 22 21:03:47 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 22 21:03:47 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 22 21:03:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 22 21:03:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Configuration 68.16 ms (12)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Factories 10.78 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Action "event/index" 22.60 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.07 ms (5)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} View "Success" for "event/index" 101.53 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Partial "event/_assets" 1.01 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Partial "event/_flashes" 0.92 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Partial "event/_list_header" 0.84 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Partial "event/_filters" 69.40 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Partial "event/_filters_field" 54.89 ms (10)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Partial "event/_list" 1.03 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Partial "event/_list_batch_actions" 1.51 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Partial "event/_list_actions" 1.14 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebDebugLogger} Partial "event/_list_footer" 0.83 ms (1)
+Oct 22 21:03:47 symfony [info] {sfWebResponse} Send content (107608 o)
+Oct 22 21:03:50 symfony [info] {sfPatternRouting} Match route "event_type" (/eventType.:sf_format) for /eventType with parameters array (  'module' => 'eventType',  'action' => 'index',  'sf_format' => 'html',)
+Oct 22 21:03:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 21:03:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 21:03:50 symfony [info] {eventTypeActions} Call "eventTypeActions->executeIndex()"
+Oct 22 21:03:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 22 21:03:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM city c - ()
+Oct 22 21:03:50 symfony [info] {sfPHPView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/indexSuccess.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_assets.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_flashes.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list_header.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list_batch_actions.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list_actions.php"
+Oct 22 21:03:50 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list_footer.php"
+Oct 22 21:03:50 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 22 21:03:50 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 22 21:03:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 22 21:03:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Configuration 52.03 ms (12)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Factories 14.62 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Action "eventType/index" 14.24 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} View "Success" for "eventType/index" 71.15 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Partial "eventType/_assets" 1.11 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Partial "eventType/_flashes" 0.82 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_header" 0.74 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Partial "eventType/_filters" 41.68 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Partial "eventType/_filters_field" 33.77 ms (5)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Partial "eventType/_list" 0.99 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_batch_actions" 1.45 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_actions" 1.08 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_footer" 0.79 ms (1)
+Oct 22 21:03:50 symfony [info] {sfWebResponse} Send content (73109 o)
+Oct 22 21:04:21 symfony [info] {sfPatternRouting} Match route "event_type" (/eventType.:sf_format) for /eventType with parameters array (  'module' => 'eventType',  'action' => 'index',  'sf_format' => 'html',)
+Oct 22 21:04:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 21:04:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 21:04:21 symfony [info] {eventTypeActions} Call "eventTypeActions->executeIndex()"
+Oct 22 21:04:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 22 21:04:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM city c - ()
+Oct 22 21:04:21 symfony [info] {sfPHPView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/indexSuccess.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_assets.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_flashes.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list_header.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_filters_field.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list_batch_actions.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list_actions.php"
+Oct 22 21:04:21 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEventType/templates/_list_footer.php"
+Oct 22 21:04:21 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 22 21:04:21 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 22 21:04:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 22 21:04:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Configuration 2.73 ms (11)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Factories 10.83 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Action "eventType/index" 20.93 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} View "Success" for "eventType/index" 64.59 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_assets" 1.82 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_flashes" 1.97 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_header" 0.75 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_filters" 40.51 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_filters_field" 32.21 ms (5)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_list" 1.09 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_batch_actions" 1.51 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_actions" 1.13 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_footer" 0.78 ms (1)
+Oct 22 21:04:21 symfony [info] {sfWebResponse} Send content (73138 o)

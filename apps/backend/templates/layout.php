@@ -9,6 +9,12 @@
     <?php include_javascripts() ?>
   </head>
   <body>
+    <a href="<?php echo url_for("@homepage");?>">Home</a> | 
+    <a href="<?php echo url_for("@event");?>">Event</a> | 
+    <a href="<?php echo url_for("@event_type");?>">Event Type</a> | 
+    <a href="<?php echo url_for("@city");?>">City</a> | 
+    <a href="<?php echo url_for("@industry");?>">Industry</a> | 
+    <a href="<?php echo url_for("@country");?>">Country</a> | 
     <?php echo $sf_content ?>
   </body>
 </html>

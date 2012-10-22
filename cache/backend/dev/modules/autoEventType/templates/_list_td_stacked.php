@@ -1,0 +1,3 @@
+<td colspan="6">
+  <?php echo __('%%id%% - %%name%% - %%short_code%% - %%created_at%% - %%updated_at%% - %%slug%%', array('%%id%%' => link_to($event_type->getId(), 'event_type_edit', $event_type), '%%name%%' => $event_type->getName(), '%%short_code%%' => $event_type->getShortCode(), '%%created_at%%' => false !== strtotime($event_type->getCreatedAt()) ? format_date($event_type->getCreatedAt(), "f") : '&nbsp;', '%%updated_at%%' => false !== strtotime($event_type->getUpdatedAt()) ? format_date($event_type->getUpdatedAt(), "f") : '&nbsp;', '%%slug%%' => $event_type->getSlug()), 'messages') ?>
+</td>

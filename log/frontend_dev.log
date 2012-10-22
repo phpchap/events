@@ -1,0 +1,76 @@
+Oct 22 20:51:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'search',  'action' => 'index',)
+Oct 22 20:51:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 20:51:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 20:51:34 symfony [info] {searchActions} Call "searchActions->executeIndex()"
+Oct 22 20:51:34 symfony [info] {sfPHPView} Render "/var/www/events/apps/frontend/modules/search/templates/indexSuccess.php"
+Oct 22 20:51:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 22 20:51:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 22 20:51:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 22 20:51:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 22 20:51:34 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/frontend/templates/layout.php"
+Oct 22 20:51:34 symfony [info] {sfPHPView} Render "/var/www/events/apps/frontend/templates/layout.php"
+Oct 22 20:51:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 22 20:51:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 22 20:51:34 symfony [info] {sfWebDebugLogger} Configuration 153.97 ms (9)
+Oct 22 20:51:34 symfony [info] {sfWebDebugLogger} Factories 150.05 ms (1)
+Oct 22 20:51:34 symfony [info] {sfWebDebugLogger} Action "search/index" 38.95 ms (1)
+Oct 22 20:51:34 symfony [info] {sfWebDebugLogger} View "Success" for "search/index" 85.57 ms (1)
+Oct 22 20:51:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.06 ms (4)
+Oct 22 20:51:34 symfony [info] {sfWebResponse} Send content (47309 o)
+Oct 22 20:53:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'search',  'action' => 'index',)
+Oct 22 20:53:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 20:53:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 20:53:01 symfony [info] {searchActions} Call "searchActions->executeIndex()"
+Oct 22 20:53:01 symfony [info] {sfPHPView} Render "/var/www/events/apps/frontend/modules/search/templates/indexSuccess.php"
+Oct 22 20:53:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 22 20:53:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 22 20:53:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 22 20:53:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 22 20:53:01 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/frontend/templates/layout.php"
+Oct 22 20:53:01 symfony [info] {sfPHPView} Render "/var/www/events/apps/frontend/templates/layout.php"
+Oct 22 20:53:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 22 20:53:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 22 20:53:01 symfony [info] {sfWebDebugLogger} Configuration 36.80 ms (10)
+Oct 22 20:53:01 symfony [info] {sfWebDebugLogger} Factories 7.98 ms (1)
+Oct 22 20:53:01 symfony [info] {sfWebDebugLogger} Action "search/index" 24.80 ms (1)
+Oct 22 20:53:01 symfony [info] {sfWebDebugLogger} View "Success" for "search/index" 70.58 ms (1)
+Oct 22 20:53:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (4)
+Oct 22 20:53:01 symfony [info] {sfWebResponse} Send content (46962 o)
+Oct 22 20:53:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'search',  'action' => 'index',)
+Oct 22 20:53:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 20:53:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 20:53:14 symfony [info] {searchActions} Call "searchActions->executeIndex()"
+Oct 22 20:53:14 symfony [info] {sfPHPView} Render "/var/www/events/apps/frontend/modules/search/templates/indexSuccess.php"
+Oct 22 20:53:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 22 20:53:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 22 20:53:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 22 20:53:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 22 20:53:14 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/frontend/templates/layout.php"
+Oct 22 20:53:14 symfony [info] {sfPHPView} Render "/var/www/events/apps/frontend/templates/layout.php"
+Oct 22 20:53:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 22 20:53:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 22 20:53:14 symfony [info] {sfWebDebugLogger} Configuration 2.70 ms (9)
+Oct 22 20:53:14 symfony [info] {sfWebDebugLogger} Factories 11.60 ms (1)
+Oct 22 20:53:14 symfony [info] {sfWebDebugLogger} Action "search/index" 27.10 ms (1)
+Oct 22 20:53:14 symfony [info] {sfWebDebugLogger} View "Success" for "search/index" 58.43 ms (1)
+Oct 22 20:53:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (4)
+Oct 22 20:53:14 symfony [info] {sfWebResponse} Send content (46960 o)
+Oct 22 20:53:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'search',  'action' => 'index',)
+Oct 22 20:53:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 22 20:53:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 22 20:53:41 symfony [info] {searchActions} Call "searchActions->executeIndex()"
+Oct 22 20:53:41 symfony [info] {sfPHPView} Render "/var/www/events/apps/frontend/modules/search/templates/indexSuccess.php"
+Oct 22 20:53:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 22 20:53:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 22 20:53:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 22 20:53:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 22 20:53:41 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/frontend/templates/layout.php"
+Oct 22 20:53:41 symfony [info] {sfPHPView} Render "/var/www/events/apps/frontend/templates/layout.php"
+Oct 22 20:53:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 22 20:53:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 22 20:53:41 symfony [info] {sfWebDebugLogger} Configuration 2.13 ms (9)
+Oct 22 20:53:41 symfony [info] {sfWebDebugLogger} Factories 11.42 ms (1)
+Oct 22 20:53:41 symfony [info] {sfWebDebugLogger} Action "search/index" 18.98 ms (1)
+Oct 22 20:53:41 symfony [info] {sfWebDebugLogger} View "Success" for "search/index" 62.57 ms (1)
+Oct 22 20:53:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.06 ms (4)
+Oct 22 20:53:41 symfony [info] {sfWebResponse} Send content (46976 o)
