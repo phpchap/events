@@ -156,3 +156,822 @@ Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_batch
 Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_actions" 1.13 ms (1)
 Oct 22 21:04:21 symfony [info] {sfWebDebugLogger} Partial "eventType/_list_footer" 0.78 ms (1)
 Oct 22 21:04:21 symfony [info] {sfWebResponse} Send content (73138 o)
+Oct 23 20:03:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Oct 23 20:03:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 20:03:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 20:03:56 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Oct 23 20:03:56 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/dashboard/templates/indexSuccess.php"
+Oct 23 20:03:56 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 20:03:56 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 20:03:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 20:03:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 20:03:56 symfony [info] {sfWebDebugLogger} Configuration 2.78 ms (9)
+Oct 23 20:03:56 symfony [info] {sfWebDebugLogger} Factories 22.57 ms (1)
+Oct 23 20:03:56 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.36 ms (1)
+Oct 23 20:03:56 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 11.17 ms (1)
+Oct 23 20:03:56 symfony [info] {sfWebResponse} Send content (27081 o)
+Oct 23 20:04:13 symfony [info] {sfPatternRouting} Match route "event" (/event.:sf_format) for /event with parameters array (  'module' => 'event',  'action' => 'index',  'sf_format' => 'html',)
+Oct 23 20:04:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 20:04:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 20:04:13 symfony [info] {eventActions} Call "eventActions->executeIndex()"
+Oct 23 20:04:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 23 20:04:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM event e - ()
+Oct 23 20:04:13 symfony [info] {sfPHPView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/indexSuccess.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_assets.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_flashes.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list_header.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_filters_field.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list_batch_actions.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list_actions.php"
+Oct 23 20:04:13 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_list_footer.php"
+Oct 23 20:04:13 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 20:04:13 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 20:04:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 20:04:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Configuration 2.48 ms (11)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Factories 10.69 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Action "event/index" 55.77 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.05 ms (5)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} View "Success" for "event/index" 104.79 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Partial "event/_assets" 1.82 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Partial "event/_flashes" 1.85 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Partial "event/_list_header" 1.89 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Partial "event/_filters" 75.17 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Partial "event/_filters_field" 59.47 ms (10)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Partial "event/_list" 1.31 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Partial "event/_list_batch_actions" 1.68 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Partial "event/_list_actions" 1.34 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebDebugLogger} Partial "event/_list_footer" 0.85 ms (1)
+Oct 23 20:04:13 symfony [info] {sfWebResponse} Send content (107607 o)
+Oct 23 20:04:15 symfony [info] {sfPatternRouting} Match route "event_new" (/event/new.:sf_format) for /event/new with parameters array (  'module' => 'event',  'action' => 'new',  'sf_format' => 'html',)
+Oct 23 20:04:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 20:04:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 20:04:15 symfony [info] {eventActions} Call "eventActions->executeNew()"
+Oct 23 20:04:16 symfony [info] {sfPHPView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/newSuccess.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_assets.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_flashes.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_header.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_fieldset.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 23 20:04:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_actions.php"
+Oct 23 20:04:16 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_footer.php"
+Oct 23 20:04:16 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 20:04:16 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 20:04:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 20:04:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Configuration 1.95 ms (11)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Factories 9.57 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Action "event/new" 489.16 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} View "Success" for "event/new" 196.37 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Partial "event/_assets" 1.75 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Partial "event/_flashes" 1.14 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Partial "event/_form_header" 1.79 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Partial "event/_form" 142.28 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Partial "event/_form_fieldset" 132.56 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Partial "event/_form_field" 118.31 ms (10)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (4)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Partial "event/_form_actions" 1.57 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebDebugLogger} Partial "event/_form_footer" 0.87 ms (1)
+Oct 23 20:04:16 symfony [info] {sfWebResponse} Send content (118624 o)
+Oct 23 21:21:30 symfony [info] {sfPatternRouting} Match route "event_new" (/event/new.:sf_format) for /event/new with parameters array (  'module' => 'event',  'action' => 'new',  'sf_format' => 'html',)
+Oct 23 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:21:30 symfony [info] {eventActions} Call "eventActions->executeNew()"
+Oct 23 21:21:30 symfony [info] {sfPHPView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/newSuccess.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_assets.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_flashes.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_header.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_fieldset.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 23 21:21:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_actions.php"
+Oct 23 21:21:30 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_footer.php"
+Oct 23 21:21:30 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:21:30 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:21:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:21:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Configuration 2.19 ms (11)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Factories 34.53 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Action "event/new" 45.41 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} View "Success" for "event/new" 126.54 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Partial "event/_assets" 0.78 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Partial "event/_flashes" 0.90 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Partial "event/_form_header" 0.87 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Partial "event/_form" 114.09 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Partial "event/_form_fieldset" 106.10 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Partial "event/_form_field" 93.98 ms (10)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.06 ms (4)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Partial "event/_form_actions" 1.51 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebDebugLogger} Partial "event/_form_footer" 0.86 ms (1)
+Oct 23 21:21:30 symfony [info] {sfWebResponse} Send content (118404 o)
+Oct 23 21:22:02 symfony [info] {sfPatternRouting} Match route "event_new" (/event/new.:sf_format) for /event/new with parameters array (  'module' => 'event',  'action' => 'new',  'sf_format' => 'html',)
+Oct 23 21:22:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:22:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:22:02 symfony [info] {eventActions} Call "eventActions->executeNew()"
+Oct 23 21:22:02 symfony [info] {sfPHPView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/newSuccess.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_assets.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_flashes.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_header.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_fieldset.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 23 21:22:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_actions.php"
+Oct 23 21:22:02 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_footer.php"
+Oct 23 21:22:02 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:22:02 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:22:02 symfony [err] {sfConfigurationException} The route "uploadCsv" does not exist.
+Oct 23 21:22:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 23 21:22:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Configuration 2.23 ms (11)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Factories 11.44 ms (1)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Action "event/new" 21.90 ms (1)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} View "Success" for "event/new" 135.57 ms (1)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Partial "event/_assets" 0.76 ms (1)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Partial "event/_flashes" 0.78 ms (1)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Partial "event/_form_header" 0.85 ms (1)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Partial "event/_form" 87.31 ms (1)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Partial "event/_form_fieldset" 79.83 ms (1)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Partial "event/_form_field" 69.48 ms (10)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.06 ms (4)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Partial "event/_form_actions" 1.39 ms (1)
+Oct 23 21:22:02 symfony [info] {sfWebDebugLogger} Partial "event/_form_footer" 0.90 ms (1)
+Oct 23 21:23:03 symfony [info] {sfPatternRouting} Match route "event_new" (/event/new.:sf_format) for /event/new with parameters array (  'module' => 'event',  'action' => 'new',  'sf_format' => 'html',)
+Oct 23 21:23:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:23:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:23:03 symfony [info] {eventActions} Call "eventActions->executeNew()"
+Oct 23 21:23:03 symfony [info] {sfPHPView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/newSuccess.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_assets.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_flashes.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_header.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_fieldset.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 23 21:23:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_field.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_actions.php"
+Oct 23 21:23:03 symfony [info] {sfPartialView} Render "/var/www/events/cache/backend/dev/modules/autoEvent/templates/_form_footer.php"
+Oct 23 21:23:03 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:23:03 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:23:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:23:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Configuration 159.58 ms (12)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Factories 171.78 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Action "event/new" 21.90 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} View "Success" for "event/new" 104.82 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Partial "event/_assets" 0.75 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Partial "event/_flashes" 0.78 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Partial "event/_form_header" 0.83 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Partial "event/_form" 93.41 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Partial "event/_form_fieldset" 86.34 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Partial "event/_form_field" 75.41 ms (10)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.06 ms (4)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Partial "event/_form_actions" 1.34 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebDebugLogger} Partial "event/_form_footer" 0.84 ms (1)
+Oct 23 21:23:03 symfony [info] {sfWebResponse} Send content (118606 o)
+Oct 23 21:23:05 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:23:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:23:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:23:05 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:23:05 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:23:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 23 21:23:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i - ()
+Oct 23 21:23:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c - ()
+Oct 23 21:23:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c - ()
+Oct 23 21:23:05 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:23:05 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:23:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:23:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:23:05 symfony [info] {sfWebDebugLogger} Configuration 53.24 ms (11)
+Oct 23 21:23:05 symfony [info] {sfWebDebugLogger} Factories 16.17 ms (1)
+Oct 23 21:23:05 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 55.72 ms (1)
+Oct 23 21:23:05 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 64.73 ms (1)
+Oct 23 21:23:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.05 ms (4)
+Oct 23 21:23:06 symfony [info] {sfWebResponse} Send content (47963 o)
+Oct 23 21:23:36 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:23:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:23:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:23:36 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:23:36 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:23:36 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:23:36 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:23:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:23:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:23:36 symfony [info] {sfWebDebugLogger} Configuration 1.89 ms (9)
+Oct 23 21:23:36 symfony [info] {sfWebDebugLogger} Factories 10.74 ms (1)
+Oct 23 21:23:36 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.15 ms (1)
+Oct 23 21:23:36 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.66 ms (1)
+Oct 23 21:23:36 symfony [info] {sfWebResponse} Send content (28402 o)
+Oct 23 21:53:50 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:53:50 symfony [info] {myUser} Automatic user logout due to timeout
+Oct 23 21:53:50 symfony [info] {myUser} User is not authenticated
+Oct 23 21:53:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:53:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:53:50 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:53:50 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:53:50 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php on line 2 (Undefined variable: slug)
+Oct 23 21:53:50 symfony [err] {sfConfigurationException} The route "new_thread" does not exist.
+Oct 23 21:53:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 23 21:53:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:53:50 symfony [info] {sfWebDebugLogger} Configuration 2.09 ms (9)
+Oct 23 21:53:50 symfony [info] {sfWebDebugLogger} Factories 17.40 ms (1)
+Oct 23 21:53:50 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.15 ms (1)
+Oct 23 21:53:50 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 36.28 ms (1)
+Oct 23 21:54:39 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:54:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:54:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:54:39 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:54:39 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:54:39 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:54:39 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:54:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:54:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:54:39 symfony [info] {sfWebDebugLogger} Configuration 89.03 ms (10)
+Oct 23 21:54:39 symfony [info] {sfWebDebugLogger} Factories 99.66 ms (1)
+Oct 23 21:54:39 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.27 ms (1)
+Oct 23 21:54:39 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.37 ms (1)
+Oct 23 21:54:39 symfony [info] {sfWebResponse} Send content (28693 o)
+Oct 23 21:54:56 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:54:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:54:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:54:56 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:54:56 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:54:56 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:54:56 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:54:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:54:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:54:56 symfony [info] {sfWebDebugLogger} Configuration 1.63 ms (9)
+Oct 23 21:54:56 symfony [info] {sfWebDebugLogger} Factories 12.82 ms (1)
+Oct 23 21:54:56 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.01 ms (1)
+Oct 23 21:54:56 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.88 ms (1)
+Oct 23 21:54:56 symfony [info] {sfWebResponse} Send content (28684 o)
+Oct 23 21:55:08 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:55:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:55:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:55:08 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:55:08 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:55:08 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:55:08 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:55:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:55:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:55:08 symfony [info] {sfWebDebugLogger} Configuration 1.85 ms (9)
+Oct 23 21:55:08 symfony [info] {sfWebDebugLogger} Factories 10.19 ms (1)
+Oct 23 21:55:08 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 31.48 ms (1)
+Oct 23 21:55:08 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 12.06 ms (1)
+Oct 23 21:55:08 symfony [info] {sfWebResponse} Send content (29280 o)
+Oct 23 21:56:23 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:56:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:56:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:56:23 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:56:23 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:56:23 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:56:23 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:56:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:56:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:56:23 symfony [info] {sfWebDebugLogger} Configuration 2.27 ms (9)
+Oct 23 21:56:23 symfony [info] {sfWebDebugLogger} Factories 13.39 ms (1)
+Oct 23 21:56:23 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 6.27 ms (1)
+Oct 23 21:56:23 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.37 ms (1)
+Oct 23 21:56:23 symfony [info] {sfWebResponse} Send content (29217 o)
+Oct 23 21:56:26 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:56:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:56:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:56:26 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:56:26 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:56:26 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:56:26 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:56:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:56:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:56:26 symfony [info] {sfWebDebugLogger} Configuration 2.46 ms (9)
+Oct 23 21:56:26 symfony [info] {sfWebDebugLogger} Factories 12.70 ms (1)
+Oct 23 21:56:26 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1.94 ms (1)
+Oct 23 21:56:26 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.72 ms (1)
+Oct 23 21:56:26 symfony [info] {sfWebResponse} Send content (28533 o)
+Oct 23 21:57:50 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:57:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:57:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:57:50 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:57:50 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:57:50 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:57:50 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:57:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:57:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:57:50 symfony [info] {sfWebDebugLogger} Configuration 2.19 ms (9)
+Oct 23 21:57:50 symfony [info] {sfWebDebugLogger} Factories 12.38 ms (1)
+Oct 23 21:57:50 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 5.10 ms (1)
+Oct 23 21:57:50 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.49 ms (1)
+Oct 23 21:57:50 symfony [info] {sfWebResponse} Send content (29279 o)
+Oct 23 21:57:52 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:57:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:57:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:57:52 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:57:52 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:57:52 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:57:52 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:57:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:57:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:57:52 symfony [info] {sfWebDebugLogger} Configuration 2.25 ms (9)
+Oct 23 21:57:52 symfony [info] {sfWebDebugLogger} Factories 13.98 ms (1)
+Oct 23 21:57:52 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.65 ms (1)
+Oct 23 21:57:52 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.02 ms (1)
+Oct 23 21:57:52 symfony [info] {sfWebResponse} Send content (28595 o)
+Oct 23 21:57:58 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:57:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:57:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:57:58 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:57:58 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:57:58 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:57:58 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:57:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:57:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:57:58 symfony [info] {sfWebDebugLogger} Configuration 1.76 ms (9)
+Oct 23 21:57:58 symfony [info] {sfWebDebugLogger} Factories 11.25 ms (1)
+Oct 23 21:57:58 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 3.91 ms (1)
+Oct 23 21:57:58 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.96 ms (1)
+Oct 23 21:57:58 symfony [info] {sfWebResponse} Send content (29277 o)
+Oct 23 21:58:09 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:58:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:58:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:58:09 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:58:09 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:58:09 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:58:09 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:58:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:58:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:58:09 symfony [info] {sfWebDebugLogger} Configuration 1.75 ms (9)
+Oct 23 21:58:09 symfony [info] {sfWebDebugLogger} Factories 10.90 ms (1)
+Oct 23 21:58:09 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1.97 ms (1)
+Oct 23 21:58:09 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.66 ms (1)
+Oct 23 21:58:09 symfony [info] {sfWebResponse} Send content (28595 o)
+Oct 23 21:58:15 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 21:58:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 21:58:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 21:58:15 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 21:58:15 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 21:58:15 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:58:15 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 21:58:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 21:58:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 21:58:15 symfony [info] {sfWebDebugLogger} Configuration 2.23 ms (9)
+Oct 23 21:58:15 symfony [info] {sfWebDebugLogger} Factories 12.80 ms (1)
+Oct 23 21:58:15 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 4.67 ms (1)
+Oct 23 21:58:15 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.99 ms (1)
+Oct 23 21:58:15 symfony [info] {sfWebResponse} Send content (29277 o)
+Oct 23 22:00:47 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:00:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:00:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:00:47 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:03:00 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:03:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:03:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:03:00 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:03:06 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:03:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:03:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:03:06 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:03:06 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:03:06 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:03:06 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:03:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:03:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:03:06 symfony [info] {sfWebDebugLogger} Configuration 1.62 ms (9)
+Oct 23 22:03:06 symfony [info] {sfWebDebugLogger} Factories 10.36 ms (1)
+Oct 23 22:03:06 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 7.16 ms (1)
+Oct 23 22:03:06 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 8.93 ms (1)
+Oct 23 22:03:06 symfony [info] {sfWebResponse} Send content (29444 o)
+Oct 23 22:03:41 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:03:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:03:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:03:41 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:03:45 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:03:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:03:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:03:45 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:03:53 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:03:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:03:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:03:53 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:04:41 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:04:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:04:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:04:41 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:04 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:04 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:04 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:04 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:04 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:04 symfony [info] {sfWebDebugLogger} Configuration 2.13 ms (9)
+Oct 23 22:06:04 symfony [info] {sfWebDebugLogger} Factories 13.92 ms (1)
+Oct 23 22:06:04 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 8.89 ms (1)
+Oct 23 22:06:04 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 8.10 ms (1)
+Oct 23 22:06:04 symfony [info] {sfWebResponse} Send content (29291 o)
+Oct 23 22:06:09 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:09 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:09 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:09 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:09 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:09 symfony [info] {sfWebDebugLogger} Configuration 1.99 ms (9)
+Oct 23 22:06:09 symfony [info] {sfWebDebugLogger} Factories 10.49 ms (1)
+Oct 23 22:06:09 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.18 ms (1)
+Oct 23 22:06:09 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.58 ms (1)
+Oct 23 22:06:09 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:06:14 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:14 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:14 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:14 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:14 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:14 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (9)
+Oct 23 22:06:14 symfony [info] {sfWebDebugLogger} Factories 13.15 ms (1)
+Oct 23 22:06:14 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 3.89 ms (1)
+Oct 23 22:06:14 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.92 ms (1)
+Oct 23 22:06:14 symfony [info] {sfWebResponse} Send content (29292 o)
+Oct 23 22:06:21 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:21 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:21 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:21 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:21 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:21 symfony [info] {sfWebDebugLogger} Configuration 2.04 ms (9)
+Oct 23 22:06:21 symfony [info] {sfWebDebugLogger} Factories 10.36 ms (1)
+Oct 23 22:06:21 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1.98 ms (1)
+Oct 23 22:06:21 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.64 ms (1)
+Oct 23 22:06:21 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:06:22 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:22 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:22 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:22 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:22 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:22 symfony [info] {sfWebDebugLogger} Configuration 2.13 ms (9)
+Oct 23 22:06:22 symfony [info] {sfWebDebugLogger} Factories 11.56 ms (1)
+Oct 23 22:06:22 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.24 ms (1)
+Oct 23 22:06:22 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.82 ms (1)
+Oct 23 22:06:22 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:06:27 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:27 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:27 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:27 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:27 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:27 symfony [info] {sfWebDebugLogger} Configuration 2.23 ms (9)
+Oct 23 22:06:27 symfony [info] {sfWebDebugLogger} Factories 11.36 ms (1)
+Oct 23 22:06:27 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.05 ms (1)
+Oct 23 22:06:27 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.12 ms (1)
+Oct 23 22:06:27 symfony [info] {sfWebResponse} Send content (28643 o)
+Oct 23 22:06:28 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:28 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:28 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:28 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:28 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:28 symfony [info] {sfWebDebugLogger} Configuration 1.84 ms (9)
+Oct 23 22:06:28 symfony [info] {sfWebDebugLogger} Factories 9.68 ms (1)
+Oct 23 22:06:28 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.06 ms (1)
+Oct 23 22:06:28 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.58 ms (1)
+Oct 23 22:06:28 symfony [info] {sfWebResponse} Send content (28642 o)
+Oct 23 22:06:29 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:29 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:29 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:29 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:29 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:29 symfony [info] {sfWebDebugLogger} Configuration 2.52 ms (9)
+Oct 23 22:06:29 symfony [info] {sfWebDebugLogger} Factories 12.89 ms (1)
+Oct 23 22:06:29 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.16 ms (1)
+Oct 23 22:06:29 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.24 ms (1)
+Oct 23 22:06:29 symfony [info] {sfWebResponse} Send content (28643 o)
+Oct 23 22:06:30 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:30 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:30 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:30 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:30 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:30 symfony [info] {sfWebDebugLogger} Configuration 1.66 ms (9)
+Oct 23 22:06:30 symfony [info] {sfWebDebugLogger} Factories 10.96 ms (1)
+Oct 23 22:06:30 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.65 ms (1)
+Oct 23 22:06:30 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.27 ms (1)
+Oct 23 22:06:30 symfony [info] {sfWebResponse} Send content (28643 o)
+Oct 23 22:06:32 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:32 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:32 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:32 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:32 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} Configuration 1.54 ms (9)
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} Factories 11.02 ms (1)
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.27 ms (1)
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.39 ms (1)
+Oct 23 22:06:32 symfony [info] {sfWebResponse} Send content (28643 o)
+Oct 23 22:06:32 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:32 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:32 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:32 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:32 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} Configuration 1.73 ms (9)
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} Factories 11.47 ms (1)
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.39 ms (1)
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.23 ms (1)
+Oct 23 22:06:32 symfony [info] {sfWebResponse} Send content (28643 o)
+Oct 23 22:06:32 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:06:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:06:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:06:32 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:06:32 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:06:32 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:32 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:06:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:06:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} Configuration 1.65 ms (9)
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} Factories 12.43 ms (1)
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.52 ms (1)
+Oct 23 22:06:32 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 8.44 ms (1)
+Oct 23 22:06:32 symfony [info] {sfWebResponse} Send content (28643 o)
+Oct 23 22:08:43 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:08:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:08:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:08:43 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:08:43 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:08:43 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:08:43 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:08:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:08:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:08:43 symfony [info] {sfWebDebugLogger} Configuration 2.58 ms (9)
+Oct 23 22:08:43 symfony [info] {sfWebDebugLogger} Factories 17.13 ms (1)
+Oct 23 22:08:43 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.45 ms (1)
+Oct 23 22:08:43 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.31 ms (1)
+Oct 23 22:08:43 symfony [info] {sfWebResponse} Send content (28587 o)
+Oct 23 22:08:45 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:08:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:08:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:08:45 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:08:45 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:08:45 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:08:45 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:08:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:08:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:08:45 symfony [info] {sfWebDebugLogger} Configuration 1.42 ms (9)
+Oct 23 22:08:45 symfony [info] {sfWebDebugLogger} Factories 11.16 ms (1)
+Oct 23 22:08:45 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1.96 ms (1)
+Oct 23 22:08:45 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.48 ms (1)
+Oct 23 22:08:45 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:09:00 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:09:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:09:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:09:00 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:09:00 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:09:00 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:09:00 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:09:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:09:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:09:00 symfony [info] {sfWebDebugLogger} Configuration 2.08 ms (9)
+Oct 23 22:09:00 symfony [info] {sfWebDebugLogger} Factories 10.40 ms (1)
+Oct 23 22:09:00 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.04 ms (1)
+Oct 23 22:09:00 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.22 ms (1)
+Oct 23 22:09:00 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:09:18 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:09:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:09:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:09:18 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:09:18 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:09:18 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:09:18 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:09:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:09:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:09:18 symfony [info] {sfWebDebugLogger} Configuration 2.20 ms (9)
+Oct 23 22:09:18 symfony [info] {sfWebDebugLogger} Factories 12.92 ms (1)
+Oct 23 22:09:18 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.45 ms (1)
+Oct 23 22:09:18 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.52 ms (1)
+Oct 23 22:09:18 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:10:34 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:10:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:10:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:10:34 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:10:34 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:10:34 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:10:34 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:10:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:10:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:10:34 symfony [info] {sfWebDebugLogger} Configuration 2.49 ms (9)
+Oct 23 22:10:34 symfony [info] {sfWebDebugLogger} Factories 13.16 ms (1)
+Oct 23 22:10:34 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1.97 ms (1)
+Oct 23 22:10:34 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.56 ms (1)
+Oct 23 22:10:35 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:10:39 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:10:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:10:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:10:39 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:10:39 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:10:39 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:10:39 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:10:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:10:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:10:39 symfony [info] {sfWebDebugLogger} Configuration 1.54 ms (9)
+Oct 23 22:10:39 symfony [info] {sfWebDebugLogger} Factories 10.54 ms (1)
+Oct 23 22:10:39 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1.94 ms (1)
+Oct 23 22:10:39 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.85 ms (1)
+Oct 23 22:10:39 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:10:51 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:10:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:10:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:10:51 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:10:51 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:10:51 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:10:51 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:10:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:10:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:10:51 symfony [info] {sfWebDebugLogger} Configuration 1.60 ms (9)
+Oct 23 22:10:51 symfony [info] {sfWebDebugLogger} Factories 11.27 ms (1)
+Oct 23 22:10:51 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.29 ms (1)
+Oct 23 22:10:51 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.20 ms (1)
+Oct 23 22:10:51 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:10:53 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:10:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:10:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:10:53 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:10:53 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:10:53 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:10:53 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:10:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:10:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:10:53 symfony [info] {sfWebDebugLogger} Configuration 2.18 ms (9)
+Oct 23 22:10:53 symfony [info] {sfWebDebugLogger} Factories 12.61 ms (1)
+Oct 23 22:10:53 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 2.28 ms (1)
+Oct 23 22:10:53 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.36 ms (1)
+Oct 23 22:10:53 symfony [info] {sfWebResponse} Send content (28588 o)
+Oct 23 22:13:00 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:13:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:13:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:13:00 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:13:00 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:13:00 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:13:00 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:13:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:13:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:13:00 symfony [info] {sfWebDebugLogger} Configuration 2.01 ms (9)
+Oct 23 22:13:00 symfony [info] {sfWebDebugLogger} Factories 10.48 ms (1)
+Oct 23 22:13:00 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1.95 ms (1)
+Oct 23 22:13:00 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.42 ms (1)
+Oct 23 22:13:00 symfony [info] {sfWebResponse} Send content (28271 o)
+Oct 23 22:13:42 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:13:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:13:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:13:42 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:15:38 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:15:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:15:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:15:38 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:15:53 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:15:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:15:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:15:53 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:24:16 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:24:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:24:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:24:16 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:35:11 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:35:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:35:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:35:11 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:35:22 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:35:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:35:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:35:22 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:39:22 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:39:22 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 2 (require_once(/var/www/events/apps/backend/modules/uploadCsv/actions/../lib/eventTypeGeneratorConfiguration.class.php): failed to open stream: No such file or directory)
+Oct 23 22:44:07 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:44:07 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 2 (require_once(/var/www/events/apps/backend/modules/uploadCsv/actions/../lib/eventTypeGeneratorConfiguration.class.php): failed to open stream: No such file or directory)
+Oct 23 22:47:26 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:47:26 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 2 (require_once(/var/www/events/apps/backend/modules/uploadCsv/actions/../lib/eventTypeGeneratorConfiguration.class.php): failed to open stream: No such file or directory)
+Oct 23 22:47:31 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:47:31 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 2 (require_once(/var/www/events/apps/backend/modules/uploadCsv/actions/../lib/eventTypeGeneratorConfiguration.class.php): failed to open stream: No such file or directory)
+Oct 23 22:47:32 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:47:32 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 2 (require_once(/var/www/events/apps/backend/modules/uploadCsv/actions/../lib/eventTypeGeneratorConfiguration.class.php): failed to open stream: No such file or directory)
+Oct 23 22:47:41 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:47:41 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 2 (require_once(/var/www/events/apps/backend/modules/uploadCsv/actions/../lib/eventTypeGeneratorConfiguration.class.php): failed to open stream: No such file or directory)
+Oct 23 22:48:02 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:48:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:48:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:48:02 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:48:02 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 23 22:48:02 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:48:02 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 23 22:48:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 23 22:48:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 23 22:48:02 symfony [info] {sfWebDebugLogger} Configuration 16.44 ms (10)
+Oct 23 22:48:02 symfony [info] {sfWebDebugLogger} Factories 11.98 ms (1)
+Oct 23 22:48:02 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1.71 ms (1)
+Oct 23 22:48:02 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 11.37 ms (1)
+Oct 23 22:48:02 symfony [info] {sfWebResponse} Send content (28275 o)
+Oct 23 22:48:08 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:48:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:48:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:48:08 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:48:22 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:48:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:48:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:48:22 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 23 22:48:37 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 23 22:48:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 23 22:48:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 23 22:48:37 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"

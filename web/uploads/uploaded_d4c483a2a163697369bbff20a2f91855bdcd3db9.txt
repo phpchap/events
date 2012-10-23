@@ -1,0 +1,23 @@
+Logo,Organizer Name,Event Name,Website,Industry,Country,City,Region,Dates,Type
+,,,,,,,,,
+,Informa,TOC Americas,www.tocevents-americas.com,Transport & Logistics,,,Americas,15/11/2012 - 17/11/2012,Conference &Exhibition
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,Informa,MEMEX,www.memexnews.com,Manufacturing,UAE,Abu Dhabi,Middle East,19/11/2012 - 21/11/2012,Exhibition
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,Informa,Australian International Sourcing Fair,www.sourcingfair.com.au,Fashion & Textiles,Australia,Sydney,Australasia,20/11/2012 - 22/11/2012,Exhibition
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,Informa,Roadex-Railex,www.roadex-railex.com,Transport and Logistics,UAE,Abu Dhabi,Middle East,20/11/2012 - 23/11/2012,Exhibition
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,Informa,Cityscape Riyadh,www.cityscaperiyadh.com,Real Estate,Saudi Arabia,Riyadh,Middle East,09/12/2012 - 11/12/2012,Exhibition

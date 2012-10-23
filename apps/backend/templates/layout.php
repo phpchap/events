@@ -15,6 +15,7 @@
     <a href="<?php echo url_for("@city");?>">City</a> | 
     <a href="<?php echo url_for("@industry");?>">Industry</a> | 
     <a href="<?php echo url_for("@country");?>">Country</a> | 
+    <a href="<?php echo url_for("@uploadCsv");?>">Upload CSV</a> |     
     <?php echo $sf_content ?>
   </body>
 </html>
