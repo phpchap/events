@@ -16,4 +16,17 @@ class IndustryTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Industry');
     }
+
+    // fetch an organiser by shortcode
+    public static function getIndustryByShortCode($shortCode) 
+    {
+	// create the queryfilters
+	$q = Doctrine_Query::create();
+	// select only the bits we need
+	$q->from("Industry i");	
+        // add the filters
+	$q->addWhere("i.short_code = ?", $shortCode);
+        // get the result
+	return $q->fetchOne();		
+    }    
 }

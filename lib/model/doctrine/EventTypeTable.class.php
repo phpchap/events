@@ -16,4 +16,17 @@ class EventTypeTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('EventType');
     }
+    
+    // fetch an organiser by shortcode
+    public static function getEventTypeByShortCode($shortCode) 
+    {
+	// create the queryfilters
+	$q = Doctrine_Query::create();
+	// select only the bits we need
+	$q->from("EventType e");	
+        // add the filters
+	$q->addWhere("e.short_code = ?", $shortCode);
+        // get the result
+	return $q->fetchOne();		
+    }        
 }

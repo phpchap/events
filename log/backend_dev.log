@@ -975,3 +975,896 @@ Oct 23 22:48:37 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uplo
 Oct 23 22:48:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
 Oct 23 22:48:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
 Oct 23 22:48:37 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:07:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Oct 29 19:07:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:07:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:07:47 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Oct 29 19:07:47 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/dashboard/templates/indexSuccess.php"
+Oct 29 19:07:47 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:07:47 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:07:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:07:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:07:47 symfony [info] {sfWebDebugLogger} Configuration 103.25 ms (10)
+Oct 29 19:07:47 symfony [info] {sfWebDebugLogger} Factories 259.10 ms (1)
+Oct 29 19:07:47 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.21 ms (1)
+Oct 29 19:07:47 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 32.01 ms (1)
+Oct 29 19:07:48 symfony [info] {sfWebResponse} Send content (27217 o)
+Oct 29 19:07:50 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:07:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:07:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:07:50 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:07:50 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:07:50 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:07:50 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:07:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:07:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:07:50 symfony [info] {sfWebDebugLogger} Configuration 2.06 ms (9)
+Oct 29 19:07:50 symfony [info] {sfWebDebugLogger} Factories 10.98 ms (1)
+Oct 29 19:07:50 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 96.31 ms (1)
+Oct 29 19:07:50 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 32.79 ms (1)
+Oct 29 19:07:50 symfony [info] {sfWebResponse} Send content (28357 o)
+Oct 29 19:08:47 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:08:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:08:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:08:47 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:08:47 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:08:47 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:08:47 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:08:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:08:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:08:47 symfony [info] {sfWebDebugLogger} Configuration 2.27 ms (9)
+Oct 29 19:08:47 symfony [info] {sfWebDebugLogger} Factories 10.40 ms (1)
+Oct 29 19:08:47 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 68.19 ms (1)
+Oct 29 19:08:47 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.65 ms (1)
+Oct 29 19:08:47 symfony [info] {sfWebResponse} Send content (28665 o)
+Oct 29 19:08:57 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:08:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:08:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:08:57 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:08:57 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:08:57 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:08:57 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:08:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:08:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:08:57 symfony [info] {sfWebDebugLogger} Configuration 2.91 ms (9)
+Oct 29 19:08:57 symfony [info] {sfWebDebugLogger} Factories 19.29 ms (1)
+Oct 29 19:08:57 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 21.25 ms (1)
+Oct 29 19:08:57 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.96 ms (1)
+Oct 29 19:08:57 symfony [info] {sfWebResponse} Send content (28666 o)
+Oct 29 19:10:19 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:10:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:10:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:10:19 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:10:19 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:10:19 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:10:19 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:10:19 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:54))
+Oct 29 19:10:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:10:19 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:54))
+Oct 29 19:10:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:10:19 symfony [info] {sfWebDebugLogger} Configuration 2.27 ms (9)
+Oct 29 19:10:19 symfony [info] {sfWebDebugLogger} Factories 13.45 ms (1)
+Oct 29 19:10:19 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 12.61 ms (1)
+Oct 29 19:10:19 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.44 ms (1)
+Oct 29 19:10:19 symfony [info] {sfWebResponse} Send content (28665 o)
+Oct 29 19:47:51 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:47:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:47:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:47:51 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:47:51 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:47:51 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:47:51 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:47:51 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:54))
+Oct 29 19:47:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:47:51 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:54))
+Oct 29 19:47:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:47:51 symfony [info] {sfWebDebugLogger} Configuration 1.71 ms (9)
+Oct 29 19:47:51 symfony [info] {sfWebDebugLogger} Factories 16.65 ms (1)
+Oct 29 19:47:51 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 12.43 ms (1)
+Oct 29 19:47:51 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.71 ms (1)
+Oct 29 19:47:51 symfony [info] {sfWebResponse} Send content (28468 o)
+Oct 29 19:48:58 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:48:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:48:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:48:58 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:48:58 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:48:58 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:48:58 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:48:58 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:53))
+Oct 29 19:48:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:48:58 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:53))
+Oct 29 19:48:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:48:58 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (9)
+Oct 29 19:48:58 symfony [info] {sfWebDebugLogger} Factories 10.99 ms (1)
+Oct 29 19:48:58 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 12.91 ms (1)
+Oct 29 19:48:58 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.17 ms (1)
+Oct 29 19:48:58 symfony [info] {sfWebResponse} Send content (28665 o)
+Oct 29 19:50:09 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:50:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:50:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:50:09 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:50:09 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:50:09 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:50:09 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:50:09 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:61))
+Oct 29 19:50:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:50:09 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:61))
+Oct 29 19:50:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:50:09 symfony [info] {sfWebDebugLogger} Configuration 1.96 ms (9)
+Oct 29 19:50:09 symfony [info] {sfWebDebugLogger} Factories 13.27 ms (1)
+Oct 29 19:50:09 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 12.28 ms (1)
+Oct 29 19:50:09 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.14 ms (1)
+Oct 29 19:50:09 symfony [info] {sfWebResponse} Send content (28665 o)
+Oct 29 19:51:46 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:51:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:51:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:51:46 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:51:46 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:51:46 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:51:46 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:51:46 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:68))
+Oct 29 19:51:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:51:46 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:68))
+Oct 29 19:51:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:51:46 symfony [info] {sfWebDebugLogger} Configuration 2.19 ms (9)
+Oct 29 19:51:46 symfony [info] {sfWebDebugLogger} Factories 12.34 ms (1)
+Oct 29 19:51:46 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 11.93 ms (1)
+Oct 29 19:51:46 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.46 ms (1)
+Oct 29 19:51:46 symfony [info] {sfWebResponse} Send content (28665 o)
+Oct 29 19:56:02 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:56:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:56:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:56:02 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:56:02 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:56:02 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:56:02 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:56:02 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:79))
+Oct 29 19:56:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:56:02 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:79))
+Oct 29 19:56:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:56:02 symfony [info] {sfWebDebugLogger} Configuration 2.20 ms (9)
+Oct 29 19:56:02 symfony [info] {sfWebDebugLogger} Factories 9.82 ms (1)
+Oct 29 19:56:02 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 12.38 ms (1)
+Oct 29 19:56:02 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.72 ms (1)
+Oct 29 19:56:02 symfony [info] {sfWebResponse} Send content (28664 o)
+Oct 29 19:58:30 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:58:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:58:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:58:30 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:58:30 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:58:30 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:58:30 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:58:30 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:81))
+Oct 29 19:58:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:58:30 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:81))
+Oct 29 19:58:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:58:30 symfony [info] {sfWebDebugLogger} Configuration 1.95 ms (9)
+Oct 29 19:58:30 symfony [info] {sfWebDebugLogger} Factories 12.34 ms (1)
+Oct 29 19:58:30 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 14.09 ms (1)
+Oct 29 19:58:30 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.64 ms (1)
+Oct 29 19:58:30 symfony [info] {sfWebResponse} Send content (28665 o)
+Oct 29 19:58:46 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 19:58:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 19:58:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 19:58:46 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 19:58:46 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 19:58:46 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:58:46 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 19:58:46 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:84))
+Oct 29 19:58:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 19:58:46 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:84))
+Oct 29 19:58:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 19:58:46 symfony [info] {sfWebDebugLogger} Configuration 1.50 ms (9)
+Oct 29 19:58:46 symfony [info] {sfWebDebugLogger} Factories 13.91 ms (1)
+Oct 29 19:58:46 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 12.98 ms (1)
+Oct 29 19:58:46 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.39 ms (1)
+Oct 29 19:58:46 symfony [info] {sfWebResponse} Send content (28665 o)
+Oct 29 20:00:51 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 20:00:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 20:00:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 20:00:51 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 20:00:51 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 20:00:51 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 20:00:51 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 20:00:51 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:81))
+Oct 29 20:00:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 20:00:51 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:81))
+Oct 29 20:00:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 20:00:51 symfony [info] {sfWebDebugLogger} Configuration 1.75 ms (9)
+Oct 29 20:00:51 symfony [info] {sfWebDebugLogger} Factories 12.62 ms (1)
+Oct 29 20:00:51 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 14.14 ms (1)
+Oct 29 20:00:51 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 8.12 ms (1)
+Oct 29 20:00:51 symfony [info] {sfWebResponse} Send content (28666 o)
+Oct 29 20:28:58 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 20:28:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 20:28:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 20:28:58 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 20:28:58 symfony [err] {sfException} Call to undefined method uploadCsvActions::mapColumnToModels.
+Oct 29 20:28:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 20:28:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 20:28:58 symfony [info] {sfWebDebugLogger} Configuration 1.68 ms (8)
+Oct 29 20:28:58 symfony [info] {sfWebDebugLogger} Factories 12.43 ms (1)
+Oct 29 20:28:58 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 48.24 ms (1)
+Oct 29 20:29:10 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 20:29:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 20:29:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 20:29:10 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 20:29:10 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 20:29:10 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 20:29:10 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 20:29:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 20:29:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 20:29:10 symfony [info] {sfWebDebugLogger} Configuration 1.91 ms (9)
+Oct 29 20:29:10 symfony [info] {sfWebDebugLogger} Factories 10.76 ms (1)
+Oct 29 20:29:10 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 13.57 ms (1)
+Oct 29 20:29:10 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.47 ms (1)
+Oct 29 20:29:10 symfony [info] {sfWebResponse} Send content (28665 o)
+Oct 29 20:29:37 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 20:29:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 20:29:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 20:29:37 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 20:29:37 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 20:29:37 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 20:29:37 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 20:29:37 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:81))
+Oct 29 20:29:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 20:29:37 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:81))
+Oct 29 20:29:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 20:29:37 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (9)
+Oct 29 20:29:37 symfony [info] {sfWebDebugLogger} Factories 10.58 ms (1)
+Oct 29 20:29:37 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 12.81 ms (1)
+Oct 29 20:29:37 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.11 ms (1)
+Oct 29 20:29:37 symfony [info] {sfWebResponse} Send content (28666 o)
+Oct 29 20:29:56 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 20:29:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 20:29:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 20:29:56 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 20:29:56 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 20:29:56 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 20:29:56 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 20:29:56 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:81))
+Oct 29 20:29:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 20:29:56 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:81))
+Oct 29 20:29:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 20:29:56 symfony [info] {sfWebDebugLogger} Configuration 1.87 ms (9)
+Oct 29 20:29:56 symfony [info] {sfWebDebugLogger} Factories 11.20 ms (1)
+Oct 29 20:29:56 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 15.45 ms (1)
+Oct 29 20:29:56 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 7.30 ms (1)
+Oct 29 20:29:56 symfony [info] {sfWebResponse} Send content (28665 o)
+Oct 29 20:42:36 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 20:42:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 20:42:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 20:42:36 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 20:42:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 20:42:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.name = ?) - (Informa)
+Oct 29 20:47:33 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 20:47:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 20:47:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 20:47:33 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:16:42 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:16:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:16:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:16:42 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:16:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:16:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (informa)
+Oct 29 21:16:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:16:42 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, created_at, updated_at, slug) VALUES (?, ?, ?, ?) - (Informa, 2012-10-29 21:16:42, 2012-10-29 21:16:42, informa)
+Oct 29 21:16:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (transport-and-logistics)
+Oct 29 21:16:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 21:16:43 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, transport-and-logistics, 2012-10-29 21:16:43, 2012-10-29 21:16:43, transport-logistics)
+Oct 29 21:16:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (n-a)
+Oct 29 21:16:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (%)
+Oct 29 21:16:43 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (, n-a, 2012-10-29 21:16:43, 2012-10-29 21:16:43, )
+Oct 29 21:16:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (n-a)
+Oct 29 21:16:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (%)
+Oct 29 21:16:43 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (, n-a, 2012-10-29 21:16:43, 2012-10-29 21:16:43, 1)
+Oct 29 21:16:43 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'
+Oct 29 21:16:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 21:16:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:16:43 symfony [info] {sfWebDebugLogger} Configuration 46.33 ms (10)
+Oct 29 21:16:43 symfony [info] {sfWebDebugLogger} Factories 9.60 ms (1)
+Oct 29 21:16:43 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 651.00 ms (1)
+Oct 29 21:16:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.18 ms (12)
+Oct 29 21:20:40 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:20:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:20:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:20:40 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:20:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:20:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (informa)
+Oct 29 21:20:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:20:40 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, created_at, updated_at, slug) VALUES (?, ?, ?, ?) - (Informa, 2012-10-29 21:20:40, 2012-10-29 21:20:40, informa-1)
+Oct 29 21:20:41 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Informa' for key 'name'
+Oct 29 21:20:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 21:20:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:20:41 symfony [info] {sfWebDebugLogger} Configuration 2.34 ms (8)
+Oct 29 21:20:41 symfony [info] {sfWebDebugLogger} Factories 10.77 ms (1)
+Oct 29 21:20:41 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 196.50 ms (1)
+Oct 29 21:20:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.05 ms (3)
+Oct 29 21:22:43 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:22:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:22:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:22:43 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:22:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:22:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (informa)
+Oct 29 21:22:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:22:43 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, informa, 2012-10-29 21:22:43, 2012-10-29 21:22:43, informa-1)
+Oct 29 21:22:43 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Informa' for key 'name'
+Oct 29 21:22:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 21:22:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:22:43 symfony [info] {sfWebDebugLogger} Configuration 2.29 ms (8)
+Oct 29 21:22:43 symfony [info] {sfWebDebugLogger} Factories 15.82 ms (1)
+Oct 29 21:22:43 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 176.61 ms (1)
+Oct 29 21:22:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+Oct 29 21:23:47 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:23:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:23:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:23:47 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:23:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:23:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (informa)
+Oct 29 21:23:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:23:47 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, informa, 2012-10-29 21:23:47, 2012-10-29 21:23:47, informa-1)
+Oct 29 21:23:47 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Informa' for key 'name'
+Oct 29 21:23:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 21:23:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:23:47 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (8)
+Oct 29 21:23:47 symfony [info] {sfWebDebugLogger} Factories 10.79 ms (1)
+Oct 29 21:23:47 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 205.02 ms (1)
+Oct 29 21:23:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (3)
+Oct 29 21:24:30 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:24:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:24:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:24:30 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:24:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:24:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (informa)
+Oct 29 21:24:30 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 129 (get_class() expects parameter 1 to be object, boolean given)
+Oct 29 21:24:42 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:24:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:24:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:24:42 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:24:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:24:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (informa)
+Oct 29 21:24:42 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 130 (get_class() expects parameter 1 to be object, boolean given)
+Oct 29 21:25:18 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:25:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:25:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:25:18 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:25:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:25:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:25:18 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 130 (get_class() expects parameter 1 to be object, boolean given)
+Oct 29 21:25:58 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:25:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:25:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:25:58 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:25:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:25:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:25:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:25:58 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 21:25:58, 2012-10-29 21:25:58, informa-1)
+Oct 29 21:25:58 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Informa' for key 'name'
+Oct 29 21:25:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 21:25:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:25:58 symfony [info] {sfWebDebugLogger} Configuration 1.85 ms (8)
+Oct 29 21:25:58 symfony [info] {sfWebDebugLogger} Factories 12.63 ms (1)
+Oct 29 21:25:58 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 172.38 ms (1)
+Oct 29 21:25:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (3)
+Oct 29 21:26:13 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:26:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:26:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:26:13 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:26:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:26:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:26:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:26:14 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 21:26:13, 2012-10-29 21:26:13, informa)
+Oct 29 21:26:44 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:26:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:26:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:26:44 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:26:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:26:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:36:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Oct 29 21:36:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:36:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:36:12 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Oct 29 21:36:12 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/dashboard/templates/indexSuccess.php"
+Oct 29 21:36:12 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 21:36:12 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 21:36:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 21:36:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:36:12 symfony [info] {sfWebDebugLogger} Configuration 38.10 ms (9)
+Oct 29 21:36:12 symfony [info] {sfWebDebugLogger} Factories 9.65 ms (1)
+Oct 29 21:36:12 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.44 ms (1)
+Oct 29 21:36:12 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 11.68 ms (1)
+Oct 29 21:36:12 symfony [info] {sfWebResponse} Send content (27145 o)
+Oct 29 21:36:15 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:36:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:36:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:36:15 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:36:15 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 21:36:15 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 21:36:15 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 21:36:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 21:36:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:36:15 symfony [info] {sfWebDebugLogger} Configuration 1.88 ms (9)
+Oct 29 21:36:15 symfony [info] {sfWebDebugLogger} Factories 10.21 ms (1)
+Oct 29 21:36:15 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1.63 ms (1)
+Oct 29 21:36:15 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 6.46 ms (1)
+Oct 29 21:36:15 symfony [info] {sfWebResponse} Send content (28353 o)
+Oct 29 21:36:27 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:36:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:36:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:36:27 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:36:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:36:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:36:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:36:27 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 21:36:27, 2012-10-29 21:36:27, informa)
+Oct 29 21:45:10 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:45:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:45:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:45:10 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:45:10 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:45:10 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:45:10 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 21:45:10 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 21:45:10 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 21:45:10, 2012-10-29 21:45:10, transport-logistics)
+Oct 29 21:51:34 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:51:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:51:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:51:34 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:51:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:51:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:51:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 21:51:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 21:51:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 21:51:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 21:51:34, 2012-10-29 21:51:34, americas)
+Oct 29 21:52:04 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:52:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:52:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:52:04 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:52:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:52:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:52:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 21:52:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 21:52:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 21:52:04 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 21:52:04, 2012-10-29 21:52:04, americas-1)
+Oct 29 21:52:04 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Americas' for key 'name'
+Oct 29 21:52:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 21:52:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:52:04 symfony [info] {sfWebDebugLogger} Configuration 1.51 ms (8)
+Oct 29 21:52:04 symfony [info] {sfWebDebugLogger} Factories 11.39 ms (1)
+Oct 29 21:52:04 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 316.22 ms (1)
+Oct 29 21:52:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.06 ms (5)
+Oct 29 21:52:32 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:52:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:52:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:52:32 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:52:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:52:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:52:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 21:52:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 21:52:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 21:52:32 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 21:52:32, 2012-10-29 21:52:32, americas-1)
+Oct 29 21:52:32 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Americas' for key 'name'
+Oct 29 21:52:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 21:52:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:52:32 symfony [info] {sfWebDebugLogger} Configuration 1.44 ms (8)
+Oct 29 21:52:32 symfony [info] {sfWebDebugLogger} Factories 11.28 ms (1)
+Oct 29 21:52:32 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 231.67 ms (1)
+Oct 29 21:52:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.06 ms (5)
+Oct 29 21:56:08 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:56:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:56:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:56:08 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 21:56:08, 2012-10-29 21:56:08, informa)
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 21:56:08, 2012-10-29 21:56:08, transport-logistics)
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 21:56:08 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 21:56:08, 2012-10-29 21:56:08, americas)
+Oct 29 21:56:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (CONFERENCE-ANDEXHIBITION)
+Oct 29 21:56:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (conference-exhibition%)
+Oct 29 21:56:09 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Conference &Exhibition, CONFERENCE-ANDEXHIBITION, 2012-10-29 21:56:09, 2012-10-29 21:56:09, conference-exhibition)
+Oct 29 21:57:01 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:57:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:57:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:57:01 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:57:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:57:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:57:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 21:57:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 21:57:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 21:57:02 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 21:57:02, 2012-10-29 21:57:02, americas-1)
+Oct 29 21:57:02 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Americas' for key 'name'
+Oct 29 21:57:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 21:57:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 21:57:02 symfony [info] {sfWebDebugLogger} Configuration 2.15 ms (8)
+Oct 29 21:57:02 symfony [info] {sfWebDebugLogger} Factories 315.16 ms (1)
+Oct 29 21:57:02 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 442.31 ms (1)
+Oct 29 21:57:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (5)
+Oct 29 21:58:08 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:58:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:58:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:58:08 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 21:58:08, 2012-10-29 21:58:08, informa)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 21:58:08, 2012-10-29 21:58:08, transport-logistics)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 21:58:08, 2012-10-29 21:58:08, americas)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (CONFERENCE-ANDEXHIBITION)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (conference-exhibition%)
+Oct 29 21:58:08 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Conference &Exhibition, CONFERENCE-ANDEXHIBITION, 2012-10-29 21:58:08, 2012-10-29 21:58:08, conference-exhibition)
+Oct 29 21:59:51 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 21:59:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 21:59:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 21:59:51 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 21:59:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 21:59:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 21:59:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 21:59:51 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 21:59:51, 2012-10-29 21:59:51, informa)
+Oct 29 21:59:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 21:59:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 21:59:51 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 21:59:51, 2012-10-29 21:59:51, transport-logistics)
+Oct 29 21:59:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 21:59:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 21:59:52 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 21:59:52, 2012-10-29 21:59:52, americas)
+Oct 29 21:59:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (CONFERENCE-ANDEXHIBITION)
+Oct 29 21:59:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (conference-exhibition%)
+Oct 29 21:59:52 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Conference &Exhibition, CONFERENCE-ANDEXHIBITION, 2012-10-29 21:59:52, 2012-10-29 21:59:52, conference-exhibition)
+Oct 29 22:02:21 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:02:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:02:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:02:21 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 22:02:21, 2012-10-29 22:02:21, informa)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 22:02:21, 2012-10-29 22:02:21, transport-logistics)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 22:02:21, 2012-10-29 22:02:21, americas)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (CONFERENCE-ANDEXHIBITION)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (conference-exhibition%)
+Oct 29 22:02:21 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Conference &Exhibition, CONFERENCE-ANDEXHIBITION, 2012-10-29 22:02:21, 2012-10-29 22:02:21, conference-exhibition)
+Oct 29 22:11:45 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:11:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:11:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:11:45 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:11:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 22:11:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:11:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:11:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 22:11:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 22:11:45 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 22:11:45, 2012-10-29 22:11:45, americas-1)
+Oct 29 22:11:45 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Americas' for key 'name'
+Oct 29 22:11:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 22:11:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 22:11:45 symfony [info] {sfWebDebugLogger} Configuration 1.68 ms (8)
+Oct 29 22:11:45 symfony [info] {sfWebDebugLogger} Factories 13.11 ms (1)
+Oct 29 22:11:45 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 210.27 ms (1)
+Oct 29 22:11:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.08 ms (5)
+Oct 29 22:12:05 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:12:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:12:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:12:05 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:12:16 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:12:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:12:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:12:16 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:12:56 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:12:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:12:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:12:56 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:13:17 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:13:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:13:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:13:17 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:13:33 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:13:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:13:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:13:33 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:22:08 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:22:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:22:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:22:08 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:24:35 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:24:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:24:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:24:35 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:24:42 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:24:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:24:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:24:42 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 22:24:42, 2012-10-29 22:24:42, informa)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 22:24:42, 2012-10-29 22:24:42, transport-logistics)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 22:24:42, 2012-10-29 22:24:42, americas)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (CONFERENCE-ANDEXHIBITION)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (conference-exhibition%)
+Oct 29 22:24:42 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Conference &Exhibition, CONFERENCE-ANDEXHIBITION, 2012-10-29 22:24:42, 2012-10-29 22:24:42, conference-exhibition)
+Oct 29 22:24:43 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "region_id" on "Event"
+Oct 29 22:24:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 22:24:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 22:24:43 symfony [info] {sfWebDebugLogger} Configuration 1.55 ms (8)
+Oct 29 22:24:43 symfony [info] {sfWebDebugLogger} Factories 15.14 ms (1)
+Oct 29 22:24:43 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 758.24 ms (1)
+Oct 29 22:24:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.14 ms (13)
+Oct 29 22:25:22 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:25:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:25:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:25:22 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 22:25:22, 2012-10-29 22:25:22, informa)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 22:25:22, 2012-10-29 22:25:22, transport-logistics)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 22:25:22, 2012-10-29 22:25:22, americas)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (CONFERENCE-ANDEXHIBITION)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (conference-exhibition%)
+Oct 29 22:25:22 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Conference &Exhibition, CONFERENCE-ANDEXHIBITION, 2012-10-29 22:25:22, 2012-10-29 22:25:22, conference-exhibition)
+Oct 29 22:25:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.slug AS e__slug FROM event e WHERE (e.slug LIKE ?) - (toc-americas%)
+Oct 29 22:25:23 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO event (organiser_id, industry_id, country_id, city_id, region_id, event_type_id, name, website, event_start, event_end, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 1, , , 1, 2, TOC Americas, www.tocevents-americas.com, 1970-01-01 00:00:00, 1970-01-01 00:00:00, 2012-10-29 22:25:23, 2012-10-29 22:25:23, toc-americas)
+Oct 29 22:25:23 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`event`.`event`, CONSTRAINT `event_country_id_country_id` FOREIGN KEY (`country_id`) REFERENCES `country` (`id`))
+Oct 29 22:25:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 22:25:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 22:25:23 symfony [info] {sfWebDebugLogger} Configuration 1.71 ms (8)
+Oct 29 22:25:23 symfony [info] {sfWebDebugLogger} Factories 11.01 ms (1)
+Oct 29 22:25:23 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 564.34 ms (1)
+Oct 29 22:25:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.17 ms (14)
+Oct 29 22:28:35 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:28:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:28:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:28:35 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:28:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 22:28:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:28:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 22:28:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 22:28:35, 2012-10-29 22:28:35, informa)
+Oct 29 22:28:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:28:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 22:28:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 22:28:35, 2012-10-29 22:28:35, transport-logistics)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 22:28:36, 2012-10-29 22:28:36, americas)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (CONFERENCE-ANDEXHIBITION)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (conference-exhibition%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Conference &Exhibition, CONFERENCE-ANDEXHIBITION, 2012-10-29 22:28:36, 2012-10-29 22:28:36, conference-exhibition)
+Oct 29 22:28:36 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:36 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:36 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:36 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (MANUFACTURING)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (manufacturing%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Manufacturing, MANUFACTURING, 2012-10-29 22:28:36, 2012-10-29 22:28:36, manufacturing)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (UAE)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM country c WHERE (c.slug LIKE ?) - (uae%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO country (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (UAE, UAE, 2012-10-29 22:28:36, 2012-10-29 22:28:36, uae)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (ABU-DHABI)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (abu-dhabi%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Abu Dhabi, ABU-DHABI, 2012-10-29 22:28:36, 2012-10-29 22:28:36, abu-dhabi)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (MIDDLE-EAST)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (middle-east%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Middle East, MIDDLE-EAST, 2012-10-29 22:28:36, 2012-10-29 22:28:36, middle-east)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (EXHIBITION)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (exhibition%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Exhibition, EXHIBITION, 2012-10-29 22:28:36, 2012-10-29 22:28:36, exhibition)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.slug AS e__slug FROM event e WHERE (e.slug LIKE ?) - (memex%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO event (organiser_id, industry_id, country_id, city_id, region_id, event_type_id, name, website, event_start, event_end, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 2, 1, 3, 4, 5, MEMEX, www.memexnews.com, 1970-01-01 00:00:00, 1970-01-01 00:00:00, 2012-10-29 22:28:36, 2012-10-29 22:28:36, memex)
+Oct 29 22:28:36 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:36 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:36 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:36 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (FASHION-AND-TEXTILES)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (fashion-textiles%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Fashion & Textiles, FASHION-AND-TEXTILES, 2012-10-29 22:28:36, 2012-10-29 22:28:36, fashion-textiles)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (AUSTRALIA)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM country c WHERE (c.slug LIKE ?) - (australia%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO country (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Australia, AUSTRALIA, 2012-10-29 22:28:36, 2012-10-29 22:28:36, australia)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (SYDNEY)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (sydney%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Sydney, SYDNEY, 2012-10-29 22:28:36, 2012-10-29 22:28:36, sydney)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AUSTRALASIA)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (australasia%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Australasia, AUSTRALASIA, 2012-10-29 22:28:36, 2012-10-29 22:28:36, australasia)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (EXHIBITION)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.slug AS e__slug FROM event e WHERE (e.slug LIKE ?) - (australian-international-sourcing-fair%)
+Oct 29 22:28:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO event (organiser_id, industry_id, country_id, city_id, region_id, event_type_id, name, website, event_start, event_end, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 3, 2, 6, 7, 5, Australian International Sourcing Fair, www.sourcingfair.com.au, 1970-01-01 00:00:00, 1970-01-01 00:00:00, 2012-10-29 22:28:36, 2012-10-29 22:28:36, australian-international-sourcing-fair)
+Oct 29 22:28:37 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:37 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:37 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:37 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:37 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php on line 75 (Undefined offset: 1)
+Oct 29 22:28:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:28:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:28:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (UAE)
+Oct 29 22:28:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (ABU-DHABI)
+Oct 29 22:28:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (MIDDLE-EAST)
+Oct 29 22:28:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (middle-east%)
+Oct 29 22:28:37 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Middle East, MIDDLE-EAST, 2012-10-29 22:28:37, 2012-10-29 22:28:37, middle-east-1)
+Oct 29 22:28:37 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/exception/sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:75))
+Oct 29 22:28:37 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Middle East' for key 'name'
+Oct 29 22:28:37 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:75))
+Oct 29 22:28:37 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:75))
+Oct 29 22:28:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 22:28:37 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/events/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/events/apps/backend/modules/uploadCsv/actions/actions.class.php:75))
+Oct 29 22:28:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 22:28:37 symfony [info] {sfWebDebugLogger} Configuration 2.57 ms (8)
+Oct 29 22:28:37 symfony [info] {sfWebDebugLogger} Factories 12.50 ms (1)
+Oct 29 22:28:37 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1432.53 ms (1)
+Oct 29 22:28:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.75 ms (53)
+Oct 29 22:30:37 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:30:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:30:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:30:37 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:32:13 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:32:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:32:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:32:13 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:32:34 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:32:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:32:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:32:34 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 22:32:34, 2012-10-29 22:32:34, informa)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 22:32:34, 2012-10-29 22:32:34, transport-logistics)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (americas%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 22:32:34, 2012-10-29 22:32:34, americas)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (CONFERENCE-ANDEXHIBITION)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (conference-exhibition%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Conference &Exhibition, CONFERENCE-ANDEXHIBITION, 2012-10-29 22:32:34, 2012-10-29 22:32:34, conference-exhibition)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (MANUFACTURING)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (manufacturing%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Manufacturing, MANUFACTURING, 2012-10-29 22:32:34, 2012-10-29 22:32:34, manufacturing)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (UAE)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM country c WHERE (c.slug LIKE ?) - (uae%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO country (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (UAE, UAE, 2012-10-29 22:32:34, 2012-10-29 22:32:34, uae)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (ABU-DHABI)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (abu-dhabi%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Abu Dhabi, ABU-DHABI, 2012-10-29 22:32:34, 2012-10-29 22:32:34, abu-dhabi)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (MIDDLE-EAST)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (middle-east%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Middle East, MIDDLE-EAST, 2012-10-29 22:32:34, 2012-10-29 22:32:34, middle-east)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (EXHIBITION)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (exhibition%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Exhibition, EXHIBITION, 2012-10-29 22:32:34, 2012-10-29 22:32:34, exhibition)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.slug AS e__slug FROM event e WHERE (e.slug LIKE ?) - (memex%)
+Oct 29 22:32:34 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO event (organiser_id, industry_id, country_id, city_id, region_id, event_type_id, name, website, event_start, event_end, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 2, 1, 3, 4, 5, MEMEX, www.memexnews.com, 1970-01-01 00:00:00, 1970-01-01 00:00:00, 2012-10-29 22:32:34, 2012-10-29 22:32:34, memex)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (FASHION-AND-TEXTILES)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (fashion-textiles%)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Fashion & Textiles, FASHION-AND-TEXTILES, 2012-10-29 22:32:35, 2012-10-29 22:32:35, fashion-textiles)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (AUSTRALIA)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM country c WHERE (c.slug LIKE ?) - (australia%)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO country (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Australia, AUSTRALIA, 2012-10-29 22:32:35, 2012-10-29 22:32:35, australia)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (SYDNEY)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (sydney%)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Sydney, SYDNEY, 2012-10-29 22:32:35, 2012-10-29 22:32:35, sydney)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AUSTRALASIA)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (australasia%)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Australasia, AUSTRALASIA, 2012-10-29 22:32:35, 2012-10-29 22:32:35, australasia)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (EXHIBITION)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.slug AS e__slug FROM event e WHERE (e.slug LIKE ?) - (australian-international-sourcing-fair%)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO event (organiser_id, industry_id, country_id, city_id, region_id, event_type_id, name, website, event_start, event_end, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 3, 2, 6, 7, 5, Australian International Sourcing Fair, www.sourcingfair.com.au, 1970-01-01 00:00:00, 1970-01-01 00:00:00, 2012-10-29 22:32:35, 2012-10-29 22:32:35, australian-international-sourcing-fair)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (UAE)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (ABU-DHABI)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (MIDDLE-EAST)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (middle-east%)
+Oct 29 22:32:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Middle East, MIDDLE-EAST, 2012-10-29 22:32:35, 2012-10-29 22:32:35, middle-east-1)
+Oct 29 22:32:35 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Middle East' for key 'name'
+Oct 29 22:32:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 29 22:32:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 22:32:35 symfony [info] {sfWebDebugLogger} Configuration 2.13 ms (8)
+Oct 29 22:32:35 symfony [info] {sfWebDebugLogger} Factories 11.15 ms (1)
+Oct 29 22:32:35 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1359.31 ms (1)
+Oct 29 22:32:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.76 ms (53)
+Oct 29 22:34:16 symfony [info] {sfPatternRouting} Match route "uploadCsv" (/uploadCsv) for /uploadCsv with parameters array (  'module' => 'uploadCsv',  'action' => 'index',)
+Oct 29 22:34:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 29 22:34:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 29 22:34:16 symfony [info] {uploadCsvActions} Call "uploadCsvActions->executeIndex()"
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.slug AS o__slug FROM organiser o WHERE (o.slug LIKE ?) - (informa%)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO organiser (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Informa, INFORMA, 2012-10-29 22:34:16, 2012-10-29 22:34:16, informa)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (transport-logistics%)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Transport & Logistics, TRANSPORT-AND-LOGISTICS, 2012-10-29 22:34:16, 2012-10-29 22:34:16, transport-logistics)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AMERICAS)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.slug AS r__slug FROM region r WHERE (r.slug LIKE ?) - (americas%)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO region (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Americas, AMERICAS, 2012-10-29 22:34:16, 2012-10-29 22:34:16, americas)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (CONFERENCE-ANDEXHIBITION)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (conference-exhibition%)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Conference &Exhibition, CONFERENCE-ANDEXHIBITION, 2012-10-29 22:34:16, 2012-10-29 22:34:16, conference-exhibition)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (MANUFACTURING)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (manufacturing%)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Manufacturing, MANUFACTURING, 2012-10-29 22:34:16, 2012-10-29 22:34:16, manufacturing)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (UAE)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM country c WHERE (c.slug LIKE ?) - (uae%)
+Oct 29 22:34:16 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO country (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (UAE, UAE, 2012-10-29 22:34:16, 2012-10-29 22:34:16, uae)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (ABU-DHABI)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (abu-dhabi%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Abu Dhabi, ABU-DHABI, 2012-10-29 22:34:17, 2012-10-29 22:34:17, abu-dhabi)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (MIDDLE-EAST)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.slug AS r__slug FROM region r WHERE (r.slug LIKE ?) - (middle-east%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO region (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Middle East, MIDDLE-EAST, 2012-10-29 22:34:17, 2012-10-29 22:34:17, middle-east)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (EXHIBITION)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (exhibition%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Exhibition, EXHIBITION, 2012-10-29 22:34:17, 2012-10-29 22:34:17, exhibition)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.slug AS e__slug FROM event e WHERE (e.slug LIKE ?) - (memex%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO event (organiser_id, industry_id, country_id, city_id, region_id, event_type_id, name, website, event_start, event_end, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 2, 1, 2, 2, 3, MEMEX, www.memexnews.com, 1970-01-01 00:00:00, 1970-01-01 00:00:00, 2012-10-29 22:34:17, 2012-10-29 22:34:17, memex)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (FASHION-AND-TEXTILES)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (fashion-textiles%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Fashion & Textiles, FASHION-AND-TEXTILES, 2012-10-29 22:34:17, 2012-10-29 22:34:17, fashion-textiles)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (AUSTRALIA)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM country c WHERE (c.slug LIKE ?) - (australia%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO country (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Australia, AUSTRALIA, 2012-10-29 22:34:17, 2012-10-29 22:34:17, australia)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (SYDNEY)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (sydney%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Sydney, SYDNEY, 2012-10-29 22:34:17, 2012-10-29 22:34:17, sydney)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (AUSTRALASIA)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.slug AS r__slug FROM region r WHERE (r.slug LIKE ?) - (australasia%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO region (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Australasia, AUSTRALASIA, 2012-10-29 22:34:17, 2012-10-29 22:34:17, australasia)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (EXHIBITION)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.slug AS e__slug FROM event e WHERE (e.slug LIKE ?) - (australian-international-sourcing-fair%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO event (organiser_id, industry_id, country_id, city_id, region_id, event_type_id, name, website, event_start, event_end, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 3, 2, 4, 3, 3, Australian International Sourcing Fair, www.sourcingfair.com.au, 1970-01-01 00:00:00, 1970-01-01 00:00:00, 2012-10-29 22:34:17, 2012-10-29 22:34:17, australian-international-sourcing-fair)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (TRANSPORT-AND-LOGISTICS)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (UAE)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (ABU-DHABI)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (MIDDLE-EAST)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (EXHIBITION)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.slug AS e__slug FROM event e WHERE (e.slug LIKE ?) - (roadex-railex%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO event (organiser_id, industry_id, country_id, city_id, region_id, event_type_id, name, website, event_start, event_end, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 1, 1, 2, 2, 3, Roadex-Railex, www.roadex-railex.com, 1970-01-01 00:00:00, 1970-01-01 00:00:00, 2012-10-29 22:34:17, 2012-10-29 22:34:17, roadex-railex)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.short_code AS o__short_code, o.created_at AS o__created_at, o.updated_at AS o__updated_at, o.slug AS o__slug FROM organiser o WHERE (o.short_code = ?) - (INFORMA)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.name AS i__name, i.short_code AS i__short_code, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM industry i WHERE (i.short_code = ?) - (REAL-ESTATE)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.slug AS i__slug FROM industry i WHERE (i.slug LIKE ?) - (real-estate%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO industry (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Real Estate, REAL-ESTATE, 2012-10-29 22:34:17, 2012-10-29 22:34:17, real-estate)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM country c WHERE (c.short_code = ?) - (SAUDI-ARABIA)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM country c WHERE (c.slug LIKE ?) - (saudi-arabia%)
+Oct 29 22:34:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO country (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Saudi Arabia, SAUDI-ARABIA, 2012-10-29 22:34:17, 2012-10-29 22:34:17, saudi-arabia)
+Oct 29 22:34:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (RIYADH)
+Oct 29 22:34:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.slug AS c__slug FROM city c WHERE (c.slug LIKE ?) - (riyadh%)
+Oct 29 22:34:18 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO city (name, short_code, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?) - (Riyadh, RIYADH, 2012-10-29 22:34:18, 2012-10-29 22:34:18, riyadh)
+Oct 29 22:34:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT r.id AS r__id, r.name AS r__name, r.short_code AS r__short_code, r.created_at AS r__created_at, r.updated_at AS r__updated_at, r.slug AS r__slug FROM region r WHERE (r.short_code = ?) - (MIDDLE-EAST)
+Oct 29 22:34:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.short_code AS c__short_code, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM city c WHERE (c.short_code = ?) - (EXHIBITION)
+Oct 29 22:34:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.slug AS e__slug FROM event e WHERE (e.slug LIKE ?) - (cityscape-riyadh%)
+Oct 29 22:34:18 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO event (organiser_id, industry_id, country_id, city_id, region_id, event_type_id, name, website, event_start, event_end, created_at, updated_at, slug) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 4, 3, 5, 2, 3, Cityscape Riyadh, www.cityscaperiyadh.com, 2012-09-12 00:00:00, 2012-11-12 00:00:00, 2012-10-29 22:34:18, 2012-10-29 22:34:18, cityscape-riyadh)
+Oct 29 22:34:18 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/modules/uploadCsv/templates/indexSuccess.php"
+Oct 29 22:34:18 symfony [info] {sfPHPView} Decorate content with "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 22:34:18 symfony [info] {sfPHPView} Render "/var/www/events/apps/backend/templates/layout.php"
+Oct 29 22:34:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 29 22:34:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 29 22:34:18 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (9)
+Oct 29 22:34:18 symfony [info] {sfWebDebugLogger} Factories 10.75 ms (1)
+Oct 29 22:34:18 symfony [info] {sfWebDebugLogger} Action "uploadCsv/index" 1810.87 ms (1)
+Oct 29 22:34:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.90 ms (69)
+Oct 29 22:34:18 symfony [info] {sfWebDebugLogger} View "Success" for "uploadCsv/index" 395.83 ms (1)
+Oct 29 22:34:18 symfony [info] {sfWebResponse} Send content (125732 o)

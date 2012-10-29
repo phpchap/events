@@ -10,32 +10,50 @@
  * @property enum $status
  * @property enum $type
  * @property integer $industry_id
+ * @property integer $organiser_id
+ * @property integer $event_type_id
  * @property integer $country_id
+ * @property integer $region_id
  * @property integer $city_id
+ * @property string $logo
+ * @property datetime $event_start
+ * @property datetime $event_end
  * @property Industry $Industry
  * @property Country $Country
  * @property City $City
  * 
- * @method string   getName()        Returns the current record's "name" value
- * @method string   getWebsite()     Returns the current record's "website" value
- * @method enum     getStatus()      Returns the current record's "status" value
- * @method enum     getType()        Returns the current record's "type" value
- * @method integer  getIndustryId()  Returns the current record's "industry_id" value
- * @method integer  getCountryId()   Returns the current record's "country_id" value
- * @method integer  getCityId()      Returns the current record's "city_id" value
- * @method Industry getIndustry()    Returns the current record's "Industry" value
- * @method Country  getCountry()     Returns the current record's "Country" value
- * @method City     getCity()        Returns the current record's "City" value
- * @method Event    setName()        Sets the current record's "name" value
- * @method Event    setWebsite()     Sets the current record's "website" value
- * @method Event    setStatus()      Sets the current record's "status" value
- * @method Event    setType()        Sets the current record's "type" value
- * @method Event    setIndustryId()  Sets the current record's "industry_id" value
- * @method Event    setCountryId()   Sets the current record's "country_id" value
- * @method Event    setCityId()      Sets the current record's "city_id" value
- * @method Event    setIndustry()    Sets the current record's "Industry" value
- * @method Event    setCountry()     Sets the current record's "Country" value
- * @method Event    setCity()        Sets the current record's "City" value
+ * @method string   getName()          Returns the current record's "name" value
+ * @method string   getWebsite()       Returns the current record's "website" value
+ * @method enum     getStatus()        Returns the current record's "status" value
+ * @method enum     getType()          Returns the current record's "type" value
+ * @method integer  getIndustryId()    Returns the current record's "industry_id" value
+ * @method integer  getOrganiserId()   Returns the current record's "organiser_id" value
+ * @method integer  getEventTypeId()   Returns the current record's "event_type_id" value
+ * @method integer  getCountryId()     Returns the current record's "country_id" value
+ * @method integer  getRegionId()      Returns the current record's "region_id" value
+ * @method integer  getCityId()        Returns the current record's "city_id" value
+ * @method string   getLogo()          Returns the current record's "logo" value
+ * @method datetime getEventStart()    Returns the current record's "event_start" value
+ * @method datetime getEventEnd()      Returns the current record's "event_end" value
+ * @method Industry getIndustry()      Returns the current record's "Industry" value
+ * @method Country  getCountry()       Returns the current record's "Country" value
+ * @method City     getCity()          Returns the current record's "City" value
+ * @method Event    setName()          Sets the current record's "name" value
+ * @method Event    setWebsite()       Sets the current record's "website" value
+ * @method Event    setStatus()        Sets the current record's "status" value
+ * @method Event    setType()          Sets the current record's "type" value
+ * @method Event    setIndustryId()    Sets the current record's "industry_id" value
+ * @method Event    setOrganiserId()   Sets the current record's "organiser_id" value
+ * @method Event    setEventTypeId()   Sets the current record's "event_type_id" value
+ * @method Event    setCountryId()     Sets the current record's "country_id" value
+ * @method Event    setRegionId()      Sets the current record's "region_id" value
+ * @method Event    setCityId()        Sets the current record's "city_id" value
+ * @method Event    setLogo()          Sets the current record's "logo" value
+ * @method Event    setEventStart()    Sets the current record's "event_start" value
+ * @method Event    setEventEnd()      Sets the current record's "event_end" value
+ * @method Event    setIndustry()      Sets the current record's "Industry" value
+ * @method Event    setCountry()       Sets the current record's "Country" value
+ * @method Event    setCity()          Sets the current record's "City" value
  * 
  * @package    event
  * @subpackage model
@@ -78,13 +96,35 @@ abstract class BaseEvent extends sfDoctrineRecord
              'type' => 'integer',
              'notnull' => true,
              ));
+        $this->hasColumn('organiser_id', 'integer', null, array(
+             'type' => 'integer',
+             'notnull' => true,
+             ));
+        $this->hasColumn('event_type_id', 'integer', null, array(
+             'type' => 'integer',
+             'notnull' => true,
+             ));
         $this->hasColumn('country_id', 'integer', null, array(
+             'type' => 'integer',
+             'notnull' => true,
+             ));
+        $this->hasColumn('region_id', 'integer', null, array(
              'type' => 'integer',
              'notnull' => true,
              ));
         $this->hasColumn('city_id', 'integer', null, array(
              'type' => 'integer',
              'notnull' => true,
+             ));
+        $this->hasColumn('logo', 'string', 255, array(
+             'type' => 'string',
+             'length' => 255,
+             ));
+        $this->hasColumn('event_start', 'datetime', null, array(
+             'type' => 'datetime',
+             ));
+        $this->hasColumn('event_end', 'datetime', null, array(
+             'type' => 'datetime',
              ));
 
         $this->option('type', 'InnoDB');
