@@ -10,7 +10,6 @@ Event:
     name: { type: string(255), notnull: true, unique: true }
     website: { type: string(255) } 
     status: { type: enum, notnull: true, values: [0, 1] } # 0 inactive, 1 live
-    type: { type: enum, values: [feed, database] } 
     industry_id:  { type: integer, notnull: true }    
     organiser_id:  { type: integer, notnull: true }
     event_type_id:  { type: integer, notnull: true }    
