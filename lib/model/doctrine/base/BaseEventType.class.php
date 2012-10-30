@@ -22,7 +22,7 @@ abstract class BaseEventType extends sfDoctrineRecord
 {
     public function setTableDefinition()
     {
-        $this->setTableName('city');
+        $this->setTableName('event_type');
         $this->hasColumn('name', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,

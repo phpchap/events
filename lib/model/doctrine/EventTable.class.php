@@ -16,4 +16,25 @@ class EventTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Event');
     }
+    
+    // fetch an organiser by shortcode
+    public static function getCheckExistingEvent($organiserId, $industryId, $countryId, 
+                                                 $cityId, $regionId, $typeId, 
+                                                 $eventName) 
+    {
+	// create the queryfilters
+	$q = Doctrine_Query::create();
+	// select only the bits we need
+	$q->from("Event e");	
+        // add the filters
+	$q->addWhere("e.organiser_id = ?", $organiserId);
+	$q->addWhere("e.industry_id = ?", $industryId);        
+        $q->addWhere("e.country_id = ?", $countryId);        
+        $q->addWhere("e.city_id = ?", $cityId);        
+        $q->addWhere("e.region_id = ?", $regionId);        
+        $q->addWhere("e.event_type_id = ?", $typeId);        
+        $q->addWhere("e.name = ?", $eventName);        
+        // get the result
+	return $q->fetchOne();		
+    }       
 }

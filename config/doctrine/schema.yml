@@ -91,7 +91,7 @@ EventType:
     type: InnoDB
     collate: utf8_unicode_ci
     charset: utf8    
-  tableName: city
+  tableName: event_type
   actAs: { Timestampable: ~, Sluggable: ~ }
   columns:
     name: { type: string(255), notnull: true, unique: true }

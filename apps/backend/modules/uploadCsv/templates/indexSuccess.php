@@ -8,4 +8,24 @@
         </td>
     </tr>
 </table>
+
+<?php if(count($errors) > 0) { ?>
+    <h2>Error Report</h2>
+    <ul>
+        <?php foreach($errors as $error) { ?>
+            <li><?php echo $error; ?></li>            
+        <?php } ?>
+    </ul>    
+<?php } ?>
+
+<hr>
+
+<?php if(count($successes) > 0) { ?>
+    <h2>Success Report</h2>
+    <ul>
+        <?php foreach($successes as $success) { ?>
+            <li><?php echo $success; ?></li>            
+        <?php } ?>        
+    </ul>        
+<?php } ?>
 </form>
